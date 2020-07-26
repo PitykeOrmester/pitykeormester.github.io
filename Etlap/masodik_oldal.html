@@ -7,10 +7,8 @@
 </head>
 <body>
     <ul>
-        <li>
-            <a href="elso_oldal.html">Menü</a>
-        </li>
-        <li><a href="/Etlap/masodik_oldal.html">Hamburgerek</a></li>
+        <li><a href="menu.html">Kezdőlap</a></li>
+        <li><a href="elso_oldal.html">Pizzak</a></li>
         <li><a href="harmadik_oldal.html">Desszertek</a>
         </li>
     </ul>
@@ -35,7 +33,10 @@
 </ol>
 <div class="container">
     <form>
-        <h3><span>Extra feltét:</span>
+       
+        <fieldset>
+            <legend>Termék Adatai</legend>
+             <h3><span>Extra feltét:</span>
         </h3>
         <div>
             <input checked id="nothing" name="nothing" type="checkbox" value="0">
@@ -60,7 +61,14 @@
         </div><div>
             <input id="pork-meat" name="hús" type="radio" value="400"> 
             <label for="pork-meat">Sertés hús pogácsa</label>
+            <div><label for="quantity">Mennyiség</label>
+            <input id="quantity" name="quantity" type="number" min="1" max="10">
+            </div>
+        </div></fieldset>
+        <div>
+            <input type="button" value="Rendelés leadása"> Ár: <span>1200</span> Ft
         </div>
+        
     </form>
 
 </div>
