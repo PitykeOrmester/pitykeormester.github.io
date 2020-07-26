@@ -1,14 +1,17 @@
- h1 {
-     color: brown;
-    }
+h1 {
+    color: brown;
+   }
 
-    p{
-        color: dimgray;
-        font-size: 24px;
-    }
-    img {
-        width: 200px;
-        box-shadow:5px 5px 10px black;
-        margin: 15px;
-    }
-    
+   p{
+       color: dimgray;
+       font-size: 24px;
+   }
+   img {
+       width: 200px;
+       box-shadow:5px 5px 10px black;
+       margin: 15px;
+   }
+   .img-div {
+       background-color: rgb(241, 97, 78);
+   }
+  
